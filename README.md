@@ -7,7 +7,7 @@ Goals:
   <li>Choice of models</li>
   <li>Specific genetic toxicity of healthy tissues</li>
   <li>Genetic targets of multiple myeloma models</li>
-  <li>Remove genes cuyo knockout sea tóxico para las células sanas</li>
+  <li>Remove genes whose knockout is toxic to healthy cells</li>
   <li>Strategies to eliminate multiple myeloma lines</li>
   <li>Analysis of the best strategies</li>
 </ol>
