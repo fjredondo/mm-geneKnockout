@@ -1,0 +1,118 @@
+Job start at 2024/01/06 07:41:57 
+std_output: alumno24-32295.out
+err_output: alumno24-32295.err
+./models/generic/data
+Converting to binary data ...
+Processing ./models/generic/Human_1_17.mat to ./models/generic/data/Human_1_17.dat ...
+
+nombreSalida: ./models/generic/data/Human_1_17.dat; time: 36.10473680496216
+Converting data to gcs
+Processing ./models/generic/data/Human_1_17.dat to ./models/generic/gcs/Human_1_17.gcs ...
+filename: ./models/generic/data/Human_1_17.dat
+biomasa.id: MAR13082
+len(sop): 678
+len(candidatos): 295; len(modelo.genes): 2885
+len(gCS): 92
+nombreSalida: ./models/generic/gcs/Human_1_17.gcs; time: 46.60982871055603
+./models/mm/data
+Converting to binary data ...
+Processing ./models/mm/KMM1.xml to ./models/mm/data/KMM1.dat ...
+
+Processing ./models/mm/MMIS.xml to ./models/mm/data/MMIS.dat ...
+
+Processing ./models/mm/SKMM2.xml to ./models/mm/data/SKMM2.dat ...
+
+nombreSalida: ./models/mm/data/MMIS.dat; time: 8.212517738342285
+nombreSalida: ./models/mm/data/SKMM2.dat; time: 8.500970602035522
+nombreSalida: ./models/mm/data/KMM1.dat; time: 8.510906219482422
+Converting data to gcs
+Processing ./models/mm/data/KMM1.dat to ./models/mm/gcs/KMM1.gcs ...
+Processing ./models/mm/data/MMIS.dat to ./models/mm/gcs/MMIS.gcs ...
+Processing ./models/mm/data/SKMM2.dat to ./models/mm/gcs/SKMM2.gcs ...
+filename: ./models/mm/data/MMIS.dat
+biomasa.id: MAR13082
+len(sop): 1291
+len(candidatos): 386; len(modelo.genes): 2434
+len(gCS): 127
+nombreSalida: ./models/mm/gcs/MMIS.gcs; time: 131.06396460533142
+filename: ./models/mm/data/SKMM2.dat
+biomasa.id: MAR13082
+len(sop): 1160
+len(candidatos): 398; len(modelo.genes): 2434
+len(gCS): 147
+nombreSalida: ./models/mm/gcs/SKMM2.gcs; time: 152.8164074420929
+filename: ./models/mm/data/KMM1.dat
+biomasa.id: MAR13082
+len(sop): 1167
+len(candidatos): 381; len(modelo.genes): 2434
+len(gCS): 124
+nombreSalida: ./models/mm/gcs/KMM1.gcs; time: 153.36068558692932
+./models/tissue/data
+Converting to binary data ...
+Processing ./models/tissue/colon.xml to ./models/tissue/data/colon.dat ...
+
+Processing ./models/tissue/kidney.xml to ./models/tissue/data/kidney.dat ...
+
+Processing ./models/tissue/liver.xml to ./models/tissue/data/liver.dat ...
+
+Processing ./models/tissue/pancreas.xml to ./models/tissue/data/pancreas.dat ...
+
+nombreSalida: ./models/tissue/data/pancreas.dat; time: 9.059638500213623
+nombreSalida: ./models/tissue/data/colon.dat; time: 9.168700695037842
+nombreSalida: ./models/tissue/data/liver.dat; time: 9.307761669158936
+nombreSalida: ./models/tissue/data/kidney.dat; time: 9.645637035369873
+Converting data to gcs
+Processing ./models/tissue/data/colon.dat to ./models/tissue/gcs/colon.gcs ...
+Processing ./models/tissue/data/kidney.dat to ./models/tissue/gcs/kidney.gcs ...
+Processing ./models/tissue/data/liver.dat to ./models/tissue/gcs/liver.gcs ...
+Processing ./models/tissue/data/pancreas.dat to ./models/tissue/gcs/pancreas.gcs ...
+filename: ./models/tissue/data/colon.dat
+biomasa.id: MAR13082
+len(sop): 947
+len(candidatos): 349; len(modelo.genes): 2410
+len(gCS): 131
+nombreSalida: ./models/tissue/gcs/colon.gcs; time: 122.20748996734619
+filename: ./models/tissue/data/liver.dat
+biomasa.id: MAR13082
+len(sop): 838
+len(candidatos): 333; len(modelo.genes): 2410
+len(gCS): 130
+nombreSalida: ./models/tissue/gcs/liver.gcs; time: 136.25917768478394
+filename: ./models/tissue/data/pancreas.dat
+biomasa.id: MAR13082
+len(sop): 1037
+len(candidatos): 410; len(modelo.genes): 2410
+len(gCS): 129
+nombreSalida: ./models/tissue/gcs/pancreas.gcs; time: 143.4822347164154
+filename: ./models/tissue/data/kidney.dat
+biomasa.id: MAR13082
+len(sop): 1053
+len(candidatos): 372; len(modelo.genes): 2410
+len(gCS): 127
+nombreSalida: ./models/tissue/gcs/kidney.gcs; time: 147.94761610031128
+Processing gKnockoutTargets.py ...
+len(models/generic/gcs/Human_1_17.gcs): 92
+len(models/mm/gcs/MMIS.gcs): 127
+len(models/mm/gcs/SKMM2.gcs): 147
+len(models/mm/gcs/KMM1.gcs): 124
+len(models/tissue/gcs/colon.gcs): 131
+len(models/tissue/gcs/liver.gcs): 130
+len(models/tissue/gcs/pancreas.gcs): 129
+len(models/tissue/gcs/kidney.gcs): 127
+Operation: ['MMIS', 127] intersection ['SKMM2', 147]. Result: 122
+Operation: ['intersectionTarget', 122] intersection ['KMM1', 124]. Result: 120
+Operation: ['intersectionTarget', 120] difference ['Human_1_17', 92]. Result: 29
+Operation: ['differenceTarget', 29] difference ['colon', 131]. Result: 4
+Operation: ['differenceTarget', 4] difference ['liver', 130]. Result: 3
+Operation: ['differenceTarget', 3] difference ['pancreas', 129]. Result: 3
+Operation: ['differenceTarget', 3] difference ['kidney', 127]. Result: 3
+Loaded model: models/generic/data/Human_1_17.dat
+Loaded model: models/mm/data/MMIS.dat
+Loaded model: models/mm/data/SKMM2.dat
+Loaded model: models/mm/data/KMM1.dat
+Loaded model: models/tissue/data/colon.dat
+Loaded model: models/tissue/data/pancreas.dat
+Loaded model: models/tissue/data/liver.dat
+Loaded model: models/tissue/data/kidney.dat
+[['Gene', 'MMIS', 'SKMM2', 'KMM1', 'Human_1_17', 'colon', 'pancreas', 'liver', 'kidney'], ['ENSG00000137700', 0.0, 0.0, 0.0, -1, -1, -1, -1, -1], ['ENSG00000173614', 0.0, 0.0, 0.0, 124.7608, 76.7285, 81.0611, 78.603, 76.7256], ['ENSG00000135437', 0.0, 0.0, 0.0, 124.7608, 76.7285, 81.0611, 78.603, 76.7256]]
+Job has ended at 2024/01/06 07:49:07 
