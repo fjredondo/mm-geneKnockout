@@ -1,0 +1,365 @@
+Job start at 2024/01/07 10:29:05 
+std_output: alumno24-32302.out
+err_output: alumno24-32302.err
+./models/generic/data
+Converting to binary data ...
+Processing ./models/generic/Human_1_17.mat to ./models/generic/data/Human_1_17.dat ...
+
+nombreSalida: ./models/generic/data/Human_1_17.dat; time: 36.24501991271973
+Converting data to gcs
+Processing ./models/generic/data/Human_1_17.dat to ./models/generic/gcs/Human_1_17.gcs ...
+filename: ./models/generic/data/Human_1_17.dat
+biomasa.id: MAR13082
+len(sop): 678
+len(candidatos): 295; len(modelo.genes): 2885
+len(gCS): 92
+nombreSalida: ./models/generic/gcs/Human_1_17.gcs; time: 43.66711926460266
+./models/mm/data
+Converting to binary data ...
+Processing ./models/mm/KMM1.xml to ./models/mm/data/KMM1.dat ...
+
+Processing ./models/mm/MMIS.xml to ./models/mm/data/MMIS.dat ...
+
+Processing ./models/mm/SKMM2.xml to ./models/mm/data/SKMM2.dat ...
+
+nombreSalida: ./models/mm/data/MMIS.dat; time: 8.395142793655396
+nombreSalida: ./models/mm/data/SKMM2.dat; time: 8.505516290664673
+nombreSalida: ./models/mm/data/KMM1.dat; time: 8.604902267456055
+Converting data to gcs
+Processing ./models/mm/data/KMM1.dat to ./models/mm/gcs/KMM1.gcs ...
+Processing ./models/mm/data/MMIS.dat to ./models/mm/gcs/MMIS.gcs ...
+Processing ./models/mm/data/SKMM2.dat to ./models/mm/gcs/SKMM2.gcs ...
+filename: ./models/mm/data/MMIS.dat
+biomasa.id: MAR13082
+len(sop): 1291
+len(candidatos): 386; len(modelo.genes): 2434
+len(gCS): 127
+nombreSalida: ./models/mm/gcs/MMIS.gcs; time: 130.25253009796143
+filename: ./models/mm/data/SKMM2.dat
+biomasa.id: MAR13082
+len(sop): 1160
+len(candidatos): 398; len(modelo.genes): 2434
+len(gCS): 148
+nombreSalida: ./models/mm/gcs/SKMM2.gcs; time: 153.5341408252716
+filename: ./models/mm/data/KMM1.dat
+biomasa.id: MAR13082
+len(sop): 1167
+len(candidatos): 381; len(modelo.genes): 2434
+len(gCS): 124
+nombreSalida: ./models/mm/gcs/KMM1.gcs; time: 157.1634681224823
+./models/tissue/data
+Converting to binary data ...
+Processing ./models/tissue/bladder.xml to ./models/tissue/data/bladder.dat ...
+
+Processing ./models/tissue/blood.xml to ./models/tissue/data/blood.dat ...
+
+Processing ./models/tissue/brain.xml to ./models/tissue/data/brain.dat ...
+
+Processing ./models/tissue/breast.xml to ./models/tissue/data/breast.dat ...
+
+Processing ./models/tissue/colon.xml to ./models/tissue/data/colon.dat ...
+
+Processing ./models/tissue/esophagus.xml to ./models/tissue/data/esophagus.dat ...
+
+Processing ./models/tissue/heart.xml to ./models/tissue/data/heart.dat ...
+
+Processing ./models/tissue/kidney.xml to ./models/tissue/data/kidney.dat ...
+
+Processing ./models/tissue/liver.xml to ./models/tissue/data/liver.dat ...
+
+Processing ./models/tissue/lung.xml to ./models/tissue/data/lung.dat ...
+
+Processing ./models/tissue/muscle.xml to ./models/tissue/data/muscle.dat ...
+
+Processing ./models/tissue/nerve.xml to ./models/tissue/data/nerve.dat ...
+
+Processing ./models/tissue/ovary.xml to ./models/tissue/data/ovary.dat ...
+
+Processing ./models/tissue/pancreas.xml to ./models/tissue/data/pancreas.dat ...
+
+Processing ./models/tissue/pituitary.xml to ./models/tissue/data/pituitary.dat ...
+
+Processing ./models/tissue/prostate.xml to ./models/tissue/data/prostate.dat ...
+
+Processing ./models/tissue/skin.xml to ./models/tissue/data/skin.dat ...
+
+Processing ./models/tissue/spleen.xml to ./models/tissue/data/spleen.dat ...
+
+Processing ./models/tissue/stomach.xml to ./models/tissue/data/stomach.dat ...
+
+Processing ./models/tissue/testis.xml to ./models/tissue/data/testis.dat ...
+
+Processing ./models/tissue/thyroid.xml to ./models/tissue/data/thyroid.dat ...
+
+Processing ./models/tissue/uterus.xml to ./models/tissue/data/uterus.dat ...
+
+Processing ./models/tissue/vagina.xml to ./models/tissue/data/vagina.dat ...
+
+nombreSalida: ./models/tissue/data/thyroid.dat; time: 28.976961851119995
+nombreSalida: ./models/tissue/data/bladder.dat; time: 36.919106245040894
+nombreSalida: ./models/tissue/data/heart.dat; time: 34.76909613609314
+nombreSalida: ./models/tissue/data/vagina.dat; time: 35.32195687294006
+nombreSalida: ./models/tissue/data/colon.dat; time: 36.970329999923706
+nombreSalida: ./models/tissue/data/muscle.dat; time: 36.03764009475708
+nombreSalida: ./models/tissue/data/blood.dat; time: 37.14654040336609
+nombreSalida: ./models/tissue/data/pancreas.dat; time: 35.987783670425415
+nombreSalida: ./models/tissue/data/stomach.dat; time: 36.53744029998779
+nombreSalida: ./models/tissue/data/esophagus.dat; time: 37.523990631103516
+nombreSalida: ./models/tissue/data/nerve.dat; time: 37.15422224998474
+nombreSalida: ./models/tissue/data/uterus.dat; time: 37.23583388328552
+nombreSalida: ./models/tissue/data/brain.dat; time: 39.46022629737854
+nombreSalida: ./models/tissue/data/breast.dat; time: 38.892236948013306
+nombreSalida: ./models/tissue/data/liver.dat; time: 37.9104745388031
+nombreSalida: ./models/tissue/data/prostate.dat; time: 38.17207336425781
+nombreSalida: ./models/tissue/data/testis.dat; time: 38.39231848716736
+nombreSalida: ./models/tissue/data/lung.dat; time: 38.99392747879028
+nombreSalida: ./models/tissue/data/ovary.dat; time: 38.6999454498291
+nombreSalida: ./models/tissue/data/pituitary.dat; time: 38.55995297431946
+nombreSalida: ./models/tissue/data/kidney.dat; time: 39.77336382865906
+nombreSalida: ./models/tissue/data/spleen.dat; time: 38.82758164405823
+nombreSalida: ./models/tissue/data/skin.dat; time: 39.16918611526489
+Converting data to gcs
+Processing ./models/tissue/data/bladder.dat to ./models/tissue/gcs/bladder.gcs ...
+Processing ./models/tissue/data/blood.dat to ./models/tissue/gcs/blood.gcs ...
+Processing ./models/tissue/data/brain.dat to ./models/tissue/gcs/brain.gcs ...
+Processing ./models/tissue/data/breast.dat to ./models/tissue/gcs/breast.gcs ...
+Processing ./models/tissue/data/colon.dat to ./models/tissue/gcs/colon.gcs ...
+Processing ./models/tissue/data/esophagus.dat to ./models/tissue/gcs/esophagus.gcs ...
+Processing ./models/tissue/data/heart.dat to ./models/tissue/gcs/heart.gcs ...
+Processing ./models/tissue/data/kidney.dat to ./models/tissue/gcs/kidney.gcs ...
+Processing ./models/tissue/data/liver.dat to ./models/tissue/gcs/liver.gcs ...
+Processing ./models/tissue/data/lung.dat to ./models/tissue/gcs/lung.gcs ...
+Processing ./models/tissue/data/muscle.dat to ./models/tissue/gcs/muscle.gcs ...
+Processing ./models/tissue/data/nerve.dat to ./models/tissue/gcs/nerve.gcs ...
+Processing ./models/tissue/data/ovary.dat to ./models/tissue/gcs/ovary.gcs ...
+Processing ./models/tissue/data/pancreas.dat to ./models/tissue/gcs/pancreas.gcs ...
+Processing ./models/tissue/data/pituitary.dat to ./models/tissue/gcs/pituitary.gcs ...
+Processing ./models/tissue/data/prostate.dat to ./models/tissue/gcs/prostate.gcs ...
+Processing ./models/tissue/data/skin.dat to ./models/tissue/gcs/skin.gcs ...
+Processing ./models/tissue/data/spleen.dat to ./models/tissue/gcs/spleen.gcs ...
+Processing ./models/tissue/data/stomach.dat to ./models/tissue/gcs/stomach.gcs ...
+Processing ./models/tissue/data/testis.dat to ./models/tissue/gcs/testis.gcs ...
+Processing ./models/tissue/data/thyroid.dat to ./models/tissue/gcs/thyroid.gcs ...
+Processing ./models/tissue/data/uterus.dat to ./models/tissue/gcs/uterus.gcs ...
+Processing ./models/tissue/data/vagina.dat to ./models/tissue/gcs/vagina.gcs ...
+filename: ./models/tissue/data/muscle.dat
+biomasa.id: MAR13082
+len(sop): 880
+len(candidatos): 337; len(modelo.genes): 2410
+len(gCS): 120
+nombreSalida: ./models/tissue/gcs/muscle.gcs; time: 499.42663288116455
+filename: ./models/tissue/data/blood.dat
+biomasa.id: MAR13082
+len(sop): 1015
+len(candidatos): 361; len(modelo.genes): 2410
+len(gCS): 132
+nombreSalida: ./models/tissue/gcs/blood.gcs; time: 510.41415143013
+filename: ./models/tissue/data/esophagus.dat
+biomasa.id: MAR13082
+len(sop): 925
+len(candidatos): 354; len(modelo.genes): 2410
+len(gCS): 124
+nombreSalida: ./models/tissue/gcs/esophagus.gcs; time: 523.3758945465088
+filename: ./models/tissue/data/heart.dat
+biomasa.id: MAR13082
+len(sop): 980
+len(candidatos): 389; len(modelo.genes): 2410
+len(gCS): 124
+nombreSalida: ./models/tissue/gcs/heart.gcs; time: 524.910539150238
+filename: ./models/tissue/data/bladder.dat
+biomasa.id: MAR13082
+len(sop): 941
+len(candidatos): 336; len(modelo.genes): 2410
+len(gCS): 122
+nombreSalida: ./models/tissue/gcs/bladder.gcs; time: 533.3954248428345
+filename: ./models/tissue/data/colon.dat
+biomasa.id: MAR13082
+len(sop): 947
+len(candidatos): 349; len(modelo.genes): 2410
+len(gCS): 131
+nombreSalida: ./models/tissue/gcs/colon.gcs; time: 535.436577796936
+filename: ./models/tissue/data/nerve.dat
+biomasa.id: MAR13082
+len(sop): 1129
+len(candidatos): 372; len(modelo.genes): 2410
+len(gCS): 108
+nombreSalida: ./models/tissue/gcs/nerve.gcs; time: 540.2658846378326
+filename: ./models/tissue/data/stomach.dat
+biomasa.id: MAR13082
+len(sop): 991
+len(candidatos): 354; len(modelo.genes): 2410
+len(gCS): 129
+nombreSalida: ./models/tissue/gcs/stomach.gcs; time: 571.0222268104553
+filename: ./models/tissue/data/spleen.dat
+biomasa.id: MAR13082
+len(sop): 1021
+len(candidatos): 360; len(modelo.genes): 2410
+len(gCS): 128
+nombreSalida: ./models/tissue/gcs/spleen.gcs; time: 579.406266450882
+filename: ./models/tissue/data/skin.dat
+biomasa.id: MAR13082
+len(sop): 1005
+len(candidatos): 393; len(modelo.genes): 2410
+len(gCS): 125
+nombreSalida: ./models/tissue/gcs/skin.gcs; time: 580.003101348877
+filename: ./models/tissue/data/vagina.dat
+biomasa.id: MAR13082
+len(sop): 1037
+len(candidatos): 365; len(modelo.genes): 2410
+len(gCS): 122
+nombreSalida: ./models/tissue/gcs/vagina.gcs; time: 585.2426135540009
+filename: ./models/tissue/data/liver.dat
+biomasa.id: MAR13082
+len(sop): 838
+len(candidatos): 333; len(modelo.genes): 2410
+len(gCS): 131
+nombreSalida: ./models/tissue/gcs/liver.gcs; time: 586.5413813591003
+filename: ./models/tissue/data/brain.dat
+biomasa.id: MAR13082
+len(sop): 1011
+len(candidatos): 401; len(modelo.genes): 2410
+len(gCS): 127
+nombreSalida: ./models/tissue/gcs/brain.gcs; time: 590.309410572052
+filename: ./models/tissue/data/pituitary.dat
+biomasa.id: MAR13082
+len(sop): 934
+len(candidatos): 401; len(modelo.genes): 2410
+len(gCS): 123
+nombreSalida: ./models/tissue/gcs/pituitary.gcs; time: 592.6598606109619
+filename: ./models/tissue/data/uterus.dat
+biomasa.id: MAR13082
+len(sop): 1015
+len(candidatos): 366; len(modelo.genes): 2410
+len(gCS): 126
+nombreSalida: ./models/tissue/gcs/uterus.gcs; time: 595.8704636096954
+filename: ./models/tissue/data/breast.dat
+biomasa.id: MAR13082
+len(sop): 920
+len(candidatos): 403; len(modelo.genes): 2410
+len(gCS): 127
+nombreSalida: ./models/tissue/gcs/breast.gcs; time: 606.1835269927979
+filename: ./models/tissue/data/lung.dat
+biomasa.id: MAR13082
+len(sop): 1001
+len(candidatos): 418; len(modelo.genes): 2410
+len(gCS): 125
+nombreSalida: ./models/tissue/gcs/lung.gcs; time: 609.9670188426971
+filename: ./models/tissue/data/pancreas.dat
+biomasa.id: MAR13082
+len(sop): 1037
+len(candidatos): 410; len(modelo.genes): 2410
+len(gCS): 129
+nombreSalida: ./models/tissue/gcs/pancreas.gcs; time: 610.9173662662506
+filename: ./models/tissue/data/prostate.dat
+biomasa.id: MAR13082
+len(sop): 1062
+len(candidatos): 367; len(modelo.genes): 2410
+len(gCS): 143
+nombreSalida: ./models/tissue/gcs/prostate.gcs; time: 615.7364811897278
+filename: ./models/tissue/data/thyroid.dat
+biomasa.id: MAR13082
+len(sop): 1110
+len(candidatos): 379; len(modelo.genes): 2410
+len(gCS): 152
+nombreSalida: ./models/tissue/gcs/thyroid.gcs; time: 617.0991127490997
+filename: ./models/tissue/data/testis.dat
+biomasa.id: MAR13082
+len(sop): 1043
+len(candidatos): 427; len(modelo.genes): 2410
+len(gCS): 142
+nombreSalida: ./models/tissue/gcs/testis.gcs; time: 632.4338300228119
+filename: ./models/tissue/data/kidney.dat
+biomasa.id: MAR13082
+len(sop): 1053
+len(candidatos): 372; len(modelo.genes): 2410
+len(gCS): 127
+nombreSalida: ./models/tissue/gcs/kidney.gcs; time: 635.4157769680023
+filename: ./models/tissue/data/ovary.dat
+biomasa.id: MAR13082
+len(sop): 1092
+len(candidatos): 406; len(modelo.genes): 2410
+len(gCS): 150
+nombreSalida: ./models/tissue/gcs/ovary.gcs; time: 693.0050296783447
+Processing gKnockoutTargets.py ...
+len(models/generic/gcs/Human_1_17.gcs): 92
+len(models/mm/gcs/MMIS.gcs): 127
+len(models/mm/gcs/SKMM2.gcs): 148
+len(models/mm/gcs/KMM1.gcs): 124
+len(models/tissue/gcs/muscle.gcs): 120
+len(models/tissue/gcs/blood.gcs): 132
+len(models/tissue/gcs/esophagus.gcs): 124
+len(models/tissue/gcs/heart.gcs): 124
+len(models/tissue/gcs/bladder.gcs): 122
+len(models/tissue/gcs/colon.gcs): 131
+len(models/tissue/gcs/nerve.gcs): 108
+len(models/tissue/gcs/stomach.gcs): 129
+len(models/tissue/gcs/spleen.gcs): 128
+len(models/tissue/gcs/skin.gcs): 125
+len(models/tissue/gcs/vagina.gcs): 122
+len(models/tissue/gcs/liver.gcs): 131
+len(models/tissue/gcs/brain.gcs): 127
+len(models/tissue/gcs/pituitary.gcs): 123
+len(models/tissue/gcs/uterus.gcs): 126
+len(models/tissue/gcs/breast.gcs): 127
+len(models/tissue/gcs/lung.gcs): 125
+len(models/tissue/gcs/pancreas.gcs): 129
+len(models/tissue/gcs/prostate.gcs): 143
+len(models/tissue/gcs/thyroid.gcs): 152
+len(models/tissue/gcs/testis.gcs): 142
+len(models/tissue/gcs/kidney.gcs): 127
+len(models/tissue/gcs/ovary.gcs): 150
+Operation: ['MMIS', 127] intersection ['SKMM2', 148]. Result: 122
+Operation: ['intersectionTarget', 122] intersection ['KMM1', 124]. Result: 120
+Operation: ['intersectionTarget', 120] difference ['Human_1_17', 92]. Result: 29
+Operation: ['differenceTarget', 29] difference ['muscle', 120]. Result: 11
+Operation: ['differenceTarget', 11] difference ['blood', 132]. Result: 10
+Operation: ['differenceTarget', 10] difference ['esophagus', 124]. Result: 2
+Operation: ['differenceTarget', 2] difference ['heart', 124]. Result: 2
+Operation: ['differenceTarget', 2] difference ['bladder', 122]. Result: 2
+Operation: ['differenceTarget', 2] difference ['colon', 131]. Result: 2
+Operation: ['differenceTarget', 2] difference ['nerve', 108]. Result: 2
+Operation: ['differenceTarget', 2] difference ['stomach', 129]. Result: 2
+Operation: ['differenceTarget', 2] difference ['spleen', 128]. Result: 2
+Operation: ['differenceTarget', 2] difference ['skin', 125]. Result: 2
+Operation: ['differenceTarget', 2] difference ['vagina', 122]. Result: 2
+Operation: ['differenceTarget', 2] difference ['liver', 131]. Result: 2
+Operation: ['differenceTarget', 2] difference ['brain', 127]. Result: 2
+Operation: ['differenceTarget', 2] difference ['pituitary', 123]. Result: 2
+Operation: ['differenceTarget', 2] difference ['uterus', 126]. Result: 2
+Operation: ['differenceTarget', 2] difference ['breast', 127]. Result: 2
+Operation: ['differenceTarget', 2] difference ['lung', 125]. Result: 2
+Operation: ['differenceTarget', 2] difference ['pancreas', 129]. Result: 2
+Operation: ['differenceTarget', 2] difference ['prostate', 143]. Result: 2
+Operation: ['differenceTarget', 2] difference ['thyroid', 152]. Result: 2
+Operation: ['differenceTarget', 2] difference ['testis', 142]. Result: 2
+Operation: ['differenceTarget', 2] difference ['kidney', 127]. Result: 2
+Operation: ['differenceTarget', 2] difference ['ovary', 150]. Result: 2
+Loaded model: models/generic/data/Human_1_17.dat
+Loaded model: models/mm/data/MMIS.dat
+Loaded model: models/mm/data/SKMM2.dat
+Loaded model: models/mm/data/KMM1.dat
+Loaded model: models/tissue/data/thyroid.dat
+Loaded model: models/tissue/data/bladder.dat
+Loaded model: models/tissue/data/heart.dat
+Loaded model: models/tissue/data/vagina.dat
+Loaded model: models/tissue/data/colon.dat
+Loaded model: models/tissue/data/blood.dat
+Loaded model: models/tissue/data/pancreas.dat
+Loaded model: models/tissue/data/muscle.dat
+Loaded model: models/tissue/data/stomach.dat
+Loaded model: models/tissue/data/uterus.dat
+Loaded model: models/tissue/data/esophagus.dat
+Loaded model: models/tissue/data/nerve.dat
+Loaded model: models/tissue/data/brain.dat
+Loaded model: models/tissue/data/breast.dat
+Loaded model: models/tissue/data/liver.dat
+Loaded model: models/tissue/data/prostate.dat
+Loaded model: models/tissue/data/testis.dat
+Loaded model: models/tissue/data/lung.dat
+Loaded model: models/tissue/data/kidney.dat
+Loaded model: models/tissue/data/ovary.dat
+Loaded model: models/tissue/data/pituitary.dat
+Loaded model: models/tissue/data/spleen.dat
+Loaded model: models/tissue/data/skin.dat
+[['Gene', 'MMIS', 'SKMM2', 'KMM1', 'Human_1_17', 'thyroid', 'bladder', 'heart', 'vagina', 'colon', 'blood', 'pancreas', 'muscle', 'stomach', 'uterus', 'esophagus', 'nerve', 'brain', 'breast', 'liver', 'prostate', 'testis', 'lung', 'kidney', 'ovary', 'pituitary', 'spleen', 'skin'], ['ENSG00000137700', 0.0, 0.0, 0.0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], ['ENSG00000173614', 0.0, 0.0, 0.0, 124.7608, 87.3187, 81.0636, 87.4377, 81.697, 76.7285, 81.5623, 81.0611, 86.7734, 78.6922, 86.7143, 87.408, 87.5376, 87.5326, 78.6124, 78.603, 87.3992, 81.6651, 78.4289, 76.7256, 87.3165, 78.6642, 78.4221, 78.6036]]
+Job has ended at 2024/01/07 10:46:30 
