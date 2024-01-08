@@ -1,5 +1,5 @@
 # mm-geneKnockout
-Bioinformatics - Biología de Sistemas: Multiple Myeloma - Gene Knockout
+Bioinformatics - Systems Biology: Multiple Myeloma - Gene Knockout
 
 Goals:
 
